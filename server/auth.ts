@@ -2,7 +2,7 @@ import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'trao-prep-kit-default-jwt-secret-key-2026';
+const JWT_SECRET = process.env.JWT_SECRET || 'ai-interview-prep-default-jwt-secret-key-2026';
 
 export interface AuthenticatedRequest extends Request {
   user?: {

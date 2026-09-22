@@ -27,16 +27,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const savedToken = localStorage.getItem('trao_token');
-    const savedUser = localStorage.getItem('trao_user');
+    const savedToken = localStorage.getItem('auth_token');
+    const savedUser = localStorage.getItem('auth_user');
 
     if (savedToken && savedUser) {
       try {
         setToken(savedToken);
         setUser(JSON.parse(savedUser));
       } catch {
-        localStorage.removeItem('trao_token');
-        localStorage.removeItem('trao_user');
+        localStorage.removeItem('auth_token');
+        localStorage.removeItem('auth_user');
       }
     }
     setIsLoading(false);
@@ -54,8 +54,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     setUser(data.user);
     setToken(data.token);
-    localStorage.setItem('trao_token', data.token);
-    localStorage.setItem('trao_user', JSON.stringify(data.user));
+    localStorage.setItem('auth_token', data.token);
+    localStorage.setItem('auth_user', JSON.stringify(data.user));
   };
 
   const register = async (email: string, pass: string, name?: string) => {
@@ -70,15 +70,15 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     setUser(data.user);
     setToken(data.token);
-    localStorage.setItem('trao_token', data.token);
-    localStorage.setItem('trao_user', JSON.stringify(data.user));
+    localStorage.setItem('auth_token', data.token);
+    localStorage.setItem('auth_user', JSON.stringify(data.user));
   };
 
   const logout = () => {
     setUser(null);
     setToken(null);
-    localStorage.removeItem('trao_token');
-    localStorage.removeItem('trao_user');
+    localStorage.removeItem('auth_token');
+    localStorage.removeItem('auth_user');
   };
 
   return (

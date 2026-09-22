@@ -40,18 +40,18 @@ export function Navbar() {
       <header className="sticky top-0 z-50 w-full border-b border-slate-800 bg-dark-950/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-brand-600 to-emerald-400 text-dark-950 font-black text-xl shadow-lg shadow-brand-500/20 group-hover:scale-105 transition-transform">
-              T
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-brand-600 to-emerald-400 text-dark-950 font-black text-lg shadow-lg shadow-brand-500/20 group-hover:scale-105 transition-transform">
+              AI
             </div>
             <div>
               <div className="flex items-center gap-1.5 font-bold tracking-tight text-slate-100 text-lg">
-                <span>Trao</span>
-                <span className="text-brand-400 font-normal">PrepKit</span>
+                <span>AI Interview</span>
+                <span className="text-brand-400 font-normal">Preparation</span>
                 <span className="rounded bg-brand-500/10 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-brand-400 border border-brand-500/20">
-                  AI v2.0
+                  Platform
                 </span>
               </div>
-              <p className="text-[11px] text-slate-400 hidden sm:block">Autonomous Interview Research & Strategy Engine</p>
+              <p className="text-[11px] text-slate-400 hidden sm:block">Autonomous Research & Strategy Engine</p>
             </div>
           </Link>
 

@@ -1,7 +1,7 @@
 {
-  "name": "trao-ai-interview-prep-kit",
+  "name": "ai-interview-prep-platform",
   "version": "1.0.0",
-  "description": "Full-Stack AI Interview Preparation Kit - Trao Assessment",
+  "description": "Autonomous AI Interview Preparation Platform - Research & Strategy Engine",
   "private": true,
   "type": "module",
   "scripts": {

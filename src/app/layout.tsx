@@ -4,7 +4,7 @@ import { AuthProvider } from '../context/AuthContext';
 import { Navbar } from '../components/Navbar';
 
 export const metadata: Metadata = {
-  title: 'Trao AI Interview Prep Kit | Research & Strategy Engine',
+  title: 'AI Interview Preparation Platform | Research & Strategy Engine',
   description: 'Turn any job description and company URL into a high-impact, personalized interview preparation kit with automated research, multi-pass coverage, and interactive practice.',
 };
 

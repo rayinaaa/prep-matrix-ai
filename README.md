@@ -1,12 +1,12 @@
-# Trao AI Interview Prep Kit
-**Full-Stack Engineering Assessment — Autonomous Research & Strategy Engine**  
+# AI Interview Preparation Platform
+**Autonomous Research & Strategy Engine**  
 *Document ID: `FS-AI-INTERVIEW-01`*
 
 ---
 
 ## 1. Project Overview & Tech Stack Justification
 
-The **Trao AI Interview Prep Kit** converts any pasted job description and company URL into a comprehensive, tailored interview preparation kit. It crawls the target company domain, extracts verified requirements, enforces deterministic two-pass coverage, and constructs an arithmetic study schedule with interactive flashcards, live inline kit editing, and an AI mock interview studio.
+The **AI Interview Preparation Platform** converts any pasted job description and company URL into a comprehensive, tailored interview preparation kit. It crawls the target company domain, extracts verified requirements, enforces deterministic two-pass coverage, and constructs an arithmetic study schedule with interactive flashcards, live inline kit editing, and an AI mock interview studio.
 
 ### Tech Stack Choices
 - **Frontend**: Next.js 14 (App Router) + Tailwind CSS + Lucide Icons + Framer Motion

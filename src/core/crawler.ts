@@ -93,7 +93,7 @@ export function scoreLink(href: string, baseOrigin: string): number {
 }
 
 export class CompanyCrawler {
-  private userAgent = 'TraoInterviewPrepBot/1.0 (+https://trao.ai/bot)';
+  private userAgent = 'AIInterviewPrepBot/1.0 (+https://prep-matrix-ai.local/bot)';
   private timeoutMs = 8000;
   private maxPagesToCrawl = 4;
 

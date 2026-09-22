@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-22T14:30:10.605Z",
+  "generated_at": "2026-09-22T14:54:00.963Z",
   "kits": [
     {
       "id": "case-01",
@@ -12,7 +12,7 @@
           "role": "Senior Backend Engineer",
           "location": "Remote / Unspecified",
           "jd_chars": 353,
-          "researched_at": "2026-09-22T14:30:10.205Z",
+          "researched_at": "2026-09-22T14:54:00.496Z",
           "pages_used": [
             "https://example.com"
           ]
@@ -238,7 +238,7 @@
           "role": "Frontend Developer needed for fast-paced team.",
           "location": "Remote / Unspecified",
           "jd_chars": 76,
-          "researched_at": "2026-09-22T14:30:10.397Z",
+          "researched_at": "2026-09-22T14:54:00.750Z",
           "pages_used": [
             "https://example.com"
           ]
@@ -359,19 +359,19 @@
       "status": "ok",
       "kit": {
         "source": {
-          "company": "Invalid-non-existent-domain-trao-assessment-test-404",
-          "company_url": "https://invalid-non-existent-domain-trao-assessment-test-404.com",
+          "company": "Invalid-non-existent-domain-interview-prep-test-404",
+          "company_url": "https://invalid-non-existent-domain-interview-prep-test-404.com",
           "role": "Full Stack Engineer",
           "location": "Remote / Unspecified",
           "jd_chars": 68,
-          "researched_at": "2026-09-22T14:30:10.461Z",
+          "researched_at": "2026-09-22T14:54:00.809Z",
           "pages_used": []
         },
         "company_brief": {
-          "summary": "No public company information could be retrieved from https://invalid-non-existent-domain-trao-assessment-test-404.com. Gaps are recorded honestly.",
+          "summary": "No public company information could be retrieved from https://invalid-non-existent-domain-interview-prep-test-404.com. Gaps are recorded honestly.",
           "what_they_do": "Unable to retrieve company product/service details from the provided URL.",
           "sources": [
-            "https://invalid-non-existent-domain-trao-assessment-test-404.com"
+            "https://invalid-non-existent-domain-interview-prep-test-404.com"
           ]
         },
         "role": {
