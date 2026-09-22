@@ -108,7 +108,8 @@ export class CompanyCrawler {
       });
 
       if (response.status === 200 && typeof response.data === 'string') {
-        return robotsParser(robotsUrl, response.data);
+        const parserFn = (robotsParser as any).default || robotsParser;
+        return parserFn(robotsUrl, response.data);
       }
     } catch {
       // Robots.txt missing or unreachable is common, proceed safely
