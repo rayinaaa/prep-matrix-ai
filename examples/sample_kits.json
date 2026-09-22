@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-22T14:54:00.963Z",
+  "generated_at": "2026-09-22T16:00:42.906Z",
   "kits": [
     {
       "id": "case-01",
@@ -12,7 +12,7 @@
           "role": "Senior Backend Engineer",
           "location": "Remote / Unspecified",
           "jd_chars": 353,
-          "researched_at": "2026-09-22T14:54:00.496Z",
+          "researched_at": "2026-09-22T16:00:42.475Z",
           "pages_used": [
             "https://example.com"
           ]
@@ -238,7 +238,7 @@
           "role": "Frontend Developer needed for fast-paced team.",
           "location": "Remote / Unspecified",
           "jd_chars": 76,
-          "researched_at": "2026-09-22T14:54:00.750Z",
+          "researched_at": "2026-09-22T16:00:42.700Z",
           "pages_used": [
             "https://example.com"
           ]
@@ -364,7 +364,7 @@
           "role": "Full Stack Engineer",
           "location": "Remote / Unspecified",
           "jd_chars": 68,
-          "researched_at": "2026-09-22T14:54:00.809Z",
+          "researched_at": "2026-09-22T16:00:42.762Z",
           "pages_used": []
         },
         "company_brief": {

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="100%" style="background:#0b0f19; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#6d28d9" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Title & Header -->
+  <text x="50" y="45" fill="#f8fafc" font-size="22" font-weight="700" letter-spacing="0.5">PrepMatrix AI — Autonomous Production System Architecture</text>
+  <text x="50" y="70" fill="#94a3b8" font-size="13">High-throughput research crawler, deterministic two-pass LLM pipeline, and real-time interactive interview studio</text>
+
+  <!-- Layer 1: Client Experience Layer -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="95" width="900" height="95" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <rect x="50" y="95" width="900" height="28" rx="10" fill="url(#blueGrad)" />
+    <text x="65" y="114" fill="#ffffff" font-size="12" font-weight="700">1. CLIENT EXPERIENCE LAYER (Next.js 14 App Router / React 18 / Tailwind CSS)</text>
+    <text x="70" y="148" fill="#e2e8f0" font-size="13" font-weight="600">Dynamic Kit Builder (SSE Streaming)</text>
+    <text x="70" y="168" fill="#94a3b8" font-size="11">Real-time status feed &amp; progress bars</text>
+    <text x="360" y="148" fill="#e2e8f0" font-size="13" font-weight="600">3D Spaced Repetition Cards</text>
+    <text x="360" y="168" fill="#94a3b8" font-size="11">Confidence rating &amp; queue sorting</text>
+    <text x="640" y="148" fill="#e2e8f0" font-size="13" font-weight="600">AI Mock Studio &amp; 1-Page Export</text>
+    <text x="640" y="168" fill="#94a3b8" font-size="11">STAR rubric grading &amp; printable kit</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <path d="M 500 190 L 500 220" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow)" />
+
+  <!-- Layer 2: API Gateway & Auth -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="225" width="900" height="85" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <rect x="50" y="225" width="900" height="28" rx="10" fill="url(#purpleGrad)" />
+    <text x="65" y="244" fill="#ffffff" font-size="12" font-weight="700">2. API GATEWAY &amp; ROUTING LAYER (Node.js Express / TypeScript)</text>
+    <text x="70" y="278" fill="#e2e8f0" font-size="13" font-weight="600">JWT Authentication</text>
+    <text x="70" y="295" fill="#94a3b8" font-size="11">Bcrypt password hashing &amp; tokens</text>
+    <text x="360" y="278" fill="#e2e8f0" font-size="13" font-weight="600">REST &amp; SSE Endpoints</text>
+    <text x="360" y="295" fill="#94a3b8" font-size="11">/api/generate, /api/kits, /api/evaluate</text>
+    <text x="640" y="278" fill="#e2e8f0" font-size="13" font-weight="600">Input Validation</text>
+    <text x="640" y="295" fill="#94a3b8" font-size="11">Strict Zod schema enforcement</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <path d="M 500 310 L 500 340" stroke="#a78bfa" stroke-width="2" stroke-dasharray="4" />
+
+  <!-- Layer 3: Core Pipeline & Autonomous Engine -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="345" width="900" height="115" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <rect x="50" y="345" width="900" height="28" rx="10" fill="url(#emeraldGrad)" />
+    <text x="65" y="364" fill="#ffffff" font-size="12" font-weight="700">3. CORE AUTONOMOUS GENERATION &amp; AUDIT PIPELINE</text>
+    
+    <rect x="70" y="385" width="195" height="60" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="80" y="405" fill="#34d399" font-size="12" font-weight="700">SSRF-Safe Crawler</text>
+    <text x="80" y="422" fill="#94a3b8" font-size="10">robots.txt check, IP guard</text>
+    <text x="80" y="436" fill="#94a3b8" font-size="10">HTML stripping &amp; link scoring</text>
+
+    <rect x="285" y="385" width="195" height="60" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="295" y="405" fill="#34d399" font-size="12" font-weight="700">Pass 1: Requirements</text>
+    <text x="295" y="422" fill="#94a3b8" font-size="10">Must-have classification</text>
+    <text x="295" y="436" fill="#94a3b8" font-size="10">Technical/Behavioral banks</text>
+
+    <rect x="500" y="385" width="195" height="60" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="510" y="405" fill="#34d399" font-size="12" font-weight="700">Pass 2: Coverage Audit</text>
+    <text x="510" y="422" fill="#94a3b8" font-size="10">Deterministic validation</text>
+    <text x="510" y="436" fill="#94a3b8" font-size="10">100% gap healing fallback</text>
+
+    <rect x="715" y="385" width="215" height="60" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="725" y="405" fill="#34d399" font-size="12" font-weight="700">Arithmetic Scheduler</text>
+    <text x="725" y="422" fill="#94a3b8" font-size="10">Difficulty-weighted early sort</text>
+    <text x="725" y="436" fill="#94a3b8" font-size="10">Integer minute constraints</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <path d="M 280 460 L 280 490" stroke="#10b981" stroke-width="2" stroke-dasharray="4" />
+  <path d="M 720 460 L 720 490" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4" />
+
+  <!-- Layer 4: Storage & AI Providers -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="495" width="430" height="90" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <rect x="50" y="495" width="430" height="26" rx="10" fill="url(#amberGrad)" />
+    <text x="65" y="513" fill="#ffffff" font-size="12" font-weight="700">4A. PERSISTENCE LAYER (Hybrid)</text>
+    <text x="70" y="545" fill="#e2e8f0" font-size="12" font-weight="600">MongoDB Database</text>
+    <text x="70" y="562" fill="#94a3b8" font-size="11">Production document collection store</text>
+    <text x="250" y="545" fill="#e2e8f0" font-size="12" font-weight="600">Zero-Config Fallback</text>
+    <text x="250" y="562" fill="#94a3b8" font-size="11">Local file JSON store (.data/)</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="520" y="495" width="430" height="90" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <rect x="520" y="495" width="430" height="26" rx="10" fill="url(#blueGrad)" />
+    <text x="535" y="513" fill="#ffffff" font-size="12" font-weight="700">4B. EXTERNAL AI &amp; NETWORK INTERFACES</text>
+    <text x="540" y="545" fill="#e2e8f0" font-size="12" font-weight="600">Google Gemini 1.5 Flash</text>
+    <text x="540" y="562" fill="#94a3b8" font-size="11">Exponential backoff structured LLM</text>
+    <text x="740" y="545" fill="#e2e8f0" font-size="12" font-weight="600">Target Web Crawling</text>
+    <text x="740" y="562" fill="#94a3b8" font-size="11">Safe heuristic domain extraction</text>
+  </g>
+</svg>

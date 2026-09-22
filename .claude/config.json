@@ -1,0 +1,8 @@
+{
+  "project": "PrepMatrix AI",
+  "version": "1.0.0",
+  "environment": "node-typescript-nextjs",
+  "primaryModel": "gemini-1.5-flash",
+  "testRunner": "vitest",
+  "buildCommand": "npm run build"
+}
